@@ -1,4 +1,4 @@
-# Example Postgress Driver
+//# Example Postgress Driver
 
 Class.forName("org.postgresql.Driver");
 Connection connection = null;
@@ -7,6 +7,7 @@ connection = DriverManager.getConnection(
 connection.close();
 
 
-
+/*
 file jdbc driver for pogressql : 
 http://jdbc.postgresql.org/download.html
+*/
