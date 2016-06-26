@@ -4,7 +4,7 @@
  Class.forName("oracle.jdbc.driver.OracleDriver");
  
  connection = DriverManager.getConnection(
-	"jdbc:oracle:thin:@localhost:1521:mkyong","username","password");
+	"jdbc:oracle:thin:@localhost:1521:arrizaqu","username","password");
 connection.close();
 
 /*
